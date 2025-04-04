@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Advanced HTML5 Practice</title>
+        <link rel="stylesheet" href="main.css">
+      </head>
+      
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Advanced HTML5 Elements</h1>
+  </header>
+
+  <!-- Ordered List with Roman Numerals -->
+  <section>
+    <h2>Topics Covered</h2>
+    <ol type="I">
+      <li>Images</li>
+      <li>Lists</li>
+      <li>Tables</li>
+      <li>Forms</li>
+      <li>Multimedia</li>
+    </ol>
+  </section>
+
+  <!-- External Image from Pexels -->
+  <section>
+    <h2>Image Example</h2>
+    <img src="https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg" 
+         alt="Beautiful Landscape" 
+         width="500">
+  </section>
+
+  <!-- Table with Contacts -->
+  <section>
+    <h2>Contact List</h2>
+    <table border="1" cellpadding="10">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Alice Smith</td><td>123 Main St</td><td>123-456-7890</td><td>alice@example.com</td></tr>
+        <tr><td>Bob Johnson</td><td>456 Elm St</td><td>987-654-3210</td><td>bob@example.com</td></tr>
+        <tr><td>Charlie Rose</td><td>789 Pine St</td><td>456-789-1230</td><td>charlie@example.com</td></tr>
+        <tr><td>David Lee</td><td>101 Oak St</td><td>321-654-0987</td><td>david@example.com</td></tr>
+        <tr><td>Eve Adams</td><td>202 Maple St</td><td>654-321-5678</td><td>eve@example.com</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Registration Form -->
+  <section>
+    <h2>Registration Form</h2>
+    <form>
+      <!-- Name -->
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+      <!-- Email -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+      <!-- Password -->
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Create a password" required minlength="6"><br><br>
+
+      <!-- Date -->
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required><br><br>
+
+      <!-- Dropdown -->
+      <label for="country">Country:</label>
+      <select id="country" name="country" required>
+        <option value="">Select a country</option>
+        <option value="za">South Africa</option>
+        <option value="us">United States</option>
+        <option value="uk">United Kingdom</option>
+      </select><br><br>
+
+      <!-- Radio Buttons -->
+      <p>Gender:</p>
+      <input type="radio" id="male" name="gender" value="male" required>
+      <label for="male">Male</label><br>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label><br><br>
+
+      <!-- Checkboxes -->
+      <p>Interests:</p>
+      <input type="checkbox" id="coding" name="interests" value="coding">
+      <label for="coding">Coding</label><br>
+      <input type="checkbox" id="design" name="interests" value="design">
+      <label for="design">Design</label><br>
+      <input type="checkbox" id="music" name="interests" value="music">
+      <label for="music">Music</label><br><br>
+
+      <!-- Submit -->
+      <input type="submit" value="Register">
+    </form>
+  </section>
+
+  <!-- Multimedia Section -->
+  <section>
+    <h2>Multimedia</h2>
+    <!-- Audio -->
+    <h3>Audio Example</h3>
+    <audio controls>
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+    <!-- Video -->
+    <h3>Video Example</h3>
+    <video width="480" controls>
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Advanced HTML5 Practice</p>
+  </footer>
+
+</body>
+</html>
